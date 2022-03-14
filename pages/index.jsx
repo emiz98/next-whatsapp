@@ -31,7 +31,7 @@ export default function Home() {
   }, [session]);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 0);
+    setTimeout(() => setLoading(false), 5000);
   }, []);
 
   if (status === "loading") {
