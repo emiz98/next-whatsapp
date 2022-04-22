@@ -65,7 +65,7 @@ const Welcome = () => {
             Some of your most personal moments are shared on WhatsApp, which is
             why we built end-to-end encryption into the latest versions of our
             app. When end-to-end encrypted, your messages and calls are secured
-            so only you and the person you're communicating with can read or
+            so only you and the person you are communicating with can read or
             listen to them, and nobody in between, not even WhatsApp.
           </p>
         </div>
