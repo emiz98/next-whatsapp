@@ -80,7 +80,7 @@ const ChatScreen = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen backgroundImage">
+    <div className="flex flex-col h-screen">
       <div className="p-5 flex items-center justify-between bg-[#202C33]">
         <div className="flex items-center space-x-5">
           <Avatar src={user?.userImage} />
@@ -106,7 +106,7 @@ const ChatScreen = () => {
           </IconButton>
         </div>
       </div>
-      <div className="overflow-y-scroll h-full bg-[#171f24] px-2 md:px-24">
+      <div className="overflow-y-scroll h-full bg-hero px-2 md:px-24">
         {messages.map((message) => (
           <ChatBubble key={message.id} message={message.data()} />
         ))}

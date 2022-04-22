@@ -1,15 +1,34 @@
-* {
-  margin: 0;
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(7, 136, 7);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ae37;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .footerCol > h4 {
+    @apply mb-5;
+  }
+  .footerCol > span {
+    @apply text-sm hover:underline cursor-pointer text-gray-200 md:mt-2;
+  }
+}
