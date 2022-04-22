@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="max-w-screen-lg space-y-10 mx-auto">
           <div className="flex items-center justify-between">
             <span>This build is only for educational purposes only.</span>
-            <span className="hidden md:inline-flex">Privacy & Terms</span>
+            <span className="hidden md:inline-flex">Privacy and Terms</span>
           </div>
         </div>
       </div>
