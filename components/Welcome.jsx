@@ -13,7 +13,7 @@ const Welcome = () => {
               Simple. Secure. Reliable messaging.
             </h1>
             <p className="text-gray-700">
-              With WhatsApp, you'll get fast, simple, secure messaging and
+              With WhatsApp, you will get fast, simple, secure messaging and
               calling for free*, available on phones all over the world.
             </p>
             <p className="text-gray-500">
