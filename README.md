@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Whatsapp 1.0
 
-## Getting Started
+![cover](cover.png)
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Build Process](#build-process)
+- [Tech Stack](#tech-stack)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Introduction
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![main image](https://cdn.sanity.io/images/1z5g6za5/production/109f79f44431e5f78c494ee8b6769c665b401f60-1212x838.png?w=2000&fit=max&auto=format)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+WhatsApp is an internationally available freeware, cross-platform, centralized instant messaging and voice-over-IP service owned by American company Meta Platforms.
 
-## Learn More
+This is a clone of the whatsapp-web which was made using react as the frontend and the firebase as the backend. This build was only made for educational purposes only.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 One-One Chat <br/>
+🚀 Authentication using google
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Build Process
 
-## Deploy on Vercel
+- Clone or download the repo
+- `npm install` or `yarn` to install dependencies
+- `npm start` or `yarn run dev` to run the application
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tech Stack
+
+<p float="left">
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/c51f7cd856302f625d5622d91847e184435c00ba-300x300.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/ea0d729f383fe9f113c7d2da95af5a39eecfa226-64x64.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/26c8efbd48f59648e141e23706ea65bb5ef9a163-24x24.svg?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/da672f35220028715dfc812676aef0a5bb359fec-143x134.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+    <img src="https://cdn.sanity.io/images/1z5g6za5/production/97986d3dd7e897b83e06a41aaf9ee7a8de146685-768x768.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+</p>
